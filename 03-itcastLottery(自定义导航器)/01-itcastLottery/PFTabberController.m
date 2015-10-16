@@ -39,25 +39,7 @@
         NSString *selName = [NSString stringWithFormat:@"TabBar%dSel",i+1];
         [tabBar addTabButtonWithName:name selName:selName];
     }
-    
-    
-    // 3.设置导航栏主题(全局设置)
-    UINavigationBar *navBar = [UINavigationBar appearance];
-    
-    
-    // 3.1.设置全局导航栏的背景色
-    [navBar setBackgroundImage:[UIImage imageNamed:@"NavBar64"] forBarMetrics:UIBarMetricsDefault];
-    
-    
-    
-    // 3.2.设置全局导航栏标题文字属性
-    NSMutableDictionary *attrs = [NSMutableDictionary dictionary];
-
-    attrs[NSForegroundColorAttributeName] = [UIColor whiteColor];   // 文字颜色
-    attrs[NSFontAttributeName] = [UIFont systemFontOfSize:16.f];    // 文字大小
-    [navBar setTitleTextAttributes:attrs];
-    
-    
+      
 }
 
 // 代理方法tabbar
@@ -67,7 +49,5 @@
 #warning 通过按钮的tag索引设置selectedIndex属性切换控制器
     self.selectedIndex = to;
 }
-
-
 
 @end

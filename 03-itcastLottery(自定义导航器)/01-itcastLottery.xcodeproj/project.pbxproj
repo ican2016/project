@@ -17,6 +17,11 @@
 		185B6D561BCEA68A00938CEB /* PFTabberController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185B6D551BCEA68A00938CEB /* PFTabberController.m */; settings = {ASSET_TAGS = (); }; };
 		185B6D591BCEB96100938CEB /* PFTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 185B6D581BCEB96100938CEB /* PFTabBarButton.m */; settings = {ASSET_TAGS = (); }; };
 		185B6D5C1BCEC17D00938CEB /* PFTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 185B6D5B1BCEC17D00938CEB /* PFTabBar.m */; settings = {ASSET_TAGS = (); }; };
+		185B6D5F1BCF4B2000938CEB /* PFNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185B6D5E1BCF4B2000938CEB /* PFNavigationController.m */; settings = {ASSET_TAGS = (); }; };
+		185B6D661BCFA07A00938CEB /* PFButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 185B6D651BCFA07A00938CEB /* PFButton.m */; settings = {ASSET_TAGS = (); }; };
+		185B6D691BCFA3BE00938CEB /* PFBuyController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185B6D681BCFA3BE00938CEB /* PFBuyController.m */; settings = {ASSET_TAGS = (); }; };
+		185B6D701BCFDBD900938CEB /* PFMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185B6D6F1BCFDBD900938CEB /* PFMeViewController.m */; settings = {ASSET_TAGS = (); }; };
+		185B6D741BCFE03700938CEB /* UIImage+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 185B6D731BCFE03700938CEB /* UIImage+MJ.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +62,16 @@
 		185B6D581BCEB96100938CEB /* PFTabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFTabBarButton.m; sourceTree = "<group>"; };
 		185B6D5A1BCEC17D00938CEB /* PFTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFTabBar.h; sourceTree = "<group>"; };
 		185B6D5B1BCEC17D00938CEB /* PFTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFTabBar.m; sourceTree = "<group>"; };
+		185B6D5D1BCF4B2000938CEB /* PFNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFNavigationController.h; sourceTree = "<group>"; };
+		185B6D5E1BCF4B2000938CEB /* PFNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFNavigationController.m; sourceTree = "<group>"; };
+		185B6D641BCFA07A00938CEB /* PFButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFButton.h; sourceTree = "<group>"; };
+		185B6D651BCFA07A00938CEB /* PFButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFButton.m; sourceTree = "<group>"; };
+		185B6D671BCFA3BE00938CEB /* PFBuyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFBuyController.h; sourceTree = "<group>"; };
+		185B6D681BCFA3BE00938CEB /* PFBuyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFBuyController.m; sourceTree = "<group>"; };
+		185B6D6E1BCFDBD900938CEB /* PFMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFMeViewController.h; sourceTree = "<group>"; };
+		185B6D6F1BCFDBD900938CEB /* PFMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFMeViewController.m; sourceTree = "<group>"; };
+		185B6D721BCFE03700938CEB /* UIImage+MJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MJ.h"; sourceTree = "<group>"; };
+		185B6D731BCFE03700938CEB /* UIImage+MJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MJ.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +163,8 @@
 		185B6D471BCEA44800938CEB /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				185B6D6A1BCFDB9700938CEB /* Me */,
+				185B6D601BCFA04500938CEB /* Buy */,
 				185B6D501BCEA4A700938CEB /* Hall */,
 				185B6D4C1BCEA48700938CEB /* Setting */,
 				185B6D481BCEA44E00938CEB /* Main */,
@@ -158,6 +175,7 @@
 		185B6D481BCEA44E00938CEB /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				185B6D711BCFE02800938CEB /* Category */,
 				185B6D4B1BCEA48000938CEB /* View */,
 				185B6D4A1BCEA47A00938CEB /* Model */,
 				185B6D491BCEA46E00938CEB /* Control */,
@@ -170,6 +188,8 @@
 			children = (
 				185B6D541BCEA68A00938CEB /* PFTabberController.h */,
 				185B6D551BCEA68A00938CEB /* PFTabberController.m */,
+				185B6D5D1BCF4B2000938CEB /* PFNavigationController.h */,
+				185B6D5E1BCF4B2000938CEB /* PFNavigationController.m */,
 			);
 			name = Control;
 			sourceTree = "<group>";
@@ -252,6 +272,83 @@
 			children = (
 			);
 			name = View;
+			sourceTree = "<group>";
+		};
+		185B6D601BCFA04500938CEB /* Buy */ = {
+			isa = PBXGroup;
+			children = (
+				185B6D631BCFA05C00938CEB /* Model */,
+				185B6D621BCFA05300938CEB /* View */,
+				185B6D611BCFA04B00938CEB /* Control */,
+			);
+			name = Buy;
+			sourceTree = "<group>";
+		};
+		185B6D611BCFA04B00938CEB /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				185B6D671BCFA3BE00938CEB /* PFBuyController.h */,
+				185B6D681BCFA3BE00938CEB /* PFBuyController.m */,
+			);
+			name = Control;
+			sourceTree = "<group>";
+		};
+		185B6D621BCFA05300938CEB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				185B6D641BCFA07A00938CEB /* PFButton.h */,
+				185B6D651BCFA07A00938CEB /* PFButton.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		185B6D631BCFA05C00938CEB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		185B6D6A1BCFDB9700938CEB /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				185B6D6D1BCFDBB500938CEB /* Model */,
+				185B6D6C1BCFDBAE00938CEB /* View */,
+				185B6D6B1BCFDBA800938CEB /* Control */,
+			);
+			name = Me;
+			sourceTree = "<group>";
+		};
+		185B6D6B1BCFDBA800938CEB /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				185B6D6E1BCFDBD900938CEB /* PFMeViewController.h */,
+				185B6D6F1BCFDBD900938CEB /* PFMeViewController.m */,
+			);
+			name = Control;
+			sourceTree = "<group>";
+		};
+		185B6D6C1BCFDBAE00938CEB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		185B6D6D1BCFDBB500938CEB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		185B6D711BCFE02800938CEB /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				185B6D721BCFE03700938CEB /* UIImage+MJ.h */,
+				185B6D731BCFE03700938CEB /* UIImage+MJ.m */,
+			);
+			name = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -384,10 +481,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				185B6D741BCFE03700938CEB /* UIImage+MJ.m in Sources */,
+				185B6D661BCFA07A00938CEB /* PFButton.m in Sources */,
 				185B6D191BCE9F8400938CEB /* AppDelegate.m in Sources */,
+				185B6D5F1BCF4B2000938CEB /* PFNavigationController.m in Sources */,
 				185B6D591BCEB96100938CEB /* PFTabBarButton.m in Sources */,
 				185B6D5C1BCEC17D00938CEB /* PFTabBar.m in Sources */,
 				185B6D561BCEA68A00938CEB /* PFTabberController.m in Sources */,
+				185B6D701BCFDBD900938CEB /* PFMeViewController.m in Sources */,
+				185B6D691BCFA3BE00938CEB /* PFBuyController.m in Sources */,
 				185B6D161BCE9F8400938CEB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
